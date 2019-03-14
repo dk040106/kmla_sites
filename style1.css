@@ -1,0 +1,17 @@
+.divchange {
+  display: inline-block;
+  cursor: pointer;
+}
+a {
+  text-decoration : none;
+  color: #7F7F7F;
+}
+div {
+  margin-bottom: 20px;
+}
+body {
+  margin-left: 20px;
+}
+h3{
+  margin-bottom: 10px;
+}
