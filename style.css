@@ -1,0 +1,47 @@
+.divchange {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.head3 {
+  display: inline-block;
+  cursor: pointer;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  margin-bottom: 10px;
+}
+.open {
+  cursor: pointer;
+}
+.close {
+  cursor: pointer;
+}
+.div1 {
+  border-left: 2px solid gray;
+}
+a {
+  text-decoration : none;
+  color: #7F7F7F;
+}
+div {
+  padding-top: 10px;
+  padding-bottom: 5px;
+
+}
+body {
+  margin-left: 20px;
+}
+h3{
+  display: inline;
+  text-align: center;
+}
+ol {
+  padding-top: 15px;
+  margin-top: 0px;
+}
