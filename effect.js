@@ -39,87 +39,38 @@ function doDisplay2(){
   }
 }
 
-function showNhideDis1() {
-  con1 = document.getElementById("dis1");
-  con2 = document.getElementById("open1");
-  con3 = document.getElementById("close1");
-
-  if(con1.style.display == 'block'){
-    con1.style.display = 'none';
-  }
-  else {
-    con1.style.display = 'block';
-  }
-
-  if(con2.style.display == 'none'){
-      con2.style.display = 'inline';
-      con3.style.display = 'none';
-  }
-  else{
-      con2.style.display = 'none';
-      con3.style.display = 'inline';
-  }
+function showDis1() {
+  document.getElementById('dis1').style.display = "block";
 }
-function showNhideDis2() {
-  con1 = document.getElementById("dis2");
-  con2 = document.getElementById("open2");
-  con3 = document.getElementById("close2");
-
-  if(con1.style.display == 'block'){
-    con1.style.display = 'none';
-  }
-  else {
-    con1.style.display = 'block';
-  }
-
-  if(con2.style.display == 'none'){
-      con2.style.display = 'inline';
-      con3.style.display = 'none';
-  }
-  else{
-      con2.style.display = 'none';
-      con3.style.display = 'inline';
-  }
+function hideDis1() {
+  setTimeout(function(){
+    document.getElementById('dis1').style.display = "none";
+  }, 1200);
 }
-function showNhideDis3() {
-  con1 = document.getElementById("dis3");
-  con2 = document.getElementById("open3");
-  con3 = document.getElementById("close3");
 
-  if(con1.style.display == 'block'){
-    con1.style.display = 'none';
-  }
-  else {
-    con1.style.display = 'block';
-  }
-
-  if(con2.style.display == 'none'){
-      con2.style.display = 'inline';
-      con3.style.display = 'none';
-  }
-  else{
-      con2.style.display = 'none';
-      con3.style.display = 'inline';
-  }
+function showDis2() {
+  document.getElementById('dis2').style.display = "block";
 }
-function showNhideDis4() {
-  con1 = document.getElementById("dis4");
-  con2 = document.getElementById("open4");
-  con3 = document.getElementById("close4");
+function hideDis2() {
+  setTimeout(function(){
+    document.getElementById('dis2').style.display = "none";
+  }, 1200);
+}
 
-  if(con1.style.display == 'block'){
-    con1.style.display = 'none';
-  }
-  else {
-    con1.style.display = 'block';
-  }
+function showDis3() {
+  document.getElementById('dis3').style.display = "block";
+}
+function hideDis3() {
+  setTimeout(function(){
+    document.getElementById('dis3').style.display = "none";
+  }, 1200);
+}
 
-  if(con2.style.display == 'none'){
-      con2.style.display = 'inline';
-      con3.style.display = 'none';
-  }
-  else{
-      con2.style.display = 'none';
-      con3.style.display = 'inline';
-  }
+function showDis4() {
+  document.getElementById('dis4').style.display = "block";
+}
+function hideDis4() {
+  setTimeout(function(){
+    document.getElementById('dis4').style.display = "none";
+  }, 1200);
 }
