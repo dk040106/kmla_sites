@@ -43,34 +43,26 @@ function showDis1() {
   document.getElementById('dis1').style.display = "block";
 }
 function hideDis1() {
-  setTimeout(function(){
-    document.getElementById('dis1').style.display = "none";
-  }, 1200);
+  document.getElementById('dis1').style.display = "none";
 }
 
 function showDis2() {
   document.getElementById('dis2').style.display = "block";
 }
 function hideDis2() {
-  setTimeout(function(){
-    document.getElementById('dis2').style.display = "none";
-  }, 1200);
+  document.getElementById('dis2').style.display = "none";
 }
 
 function showDis3() {
   document.getElementById('dis3').style.display = "block";
 }
 function hideDis3() {
-  setTimeout(function(){
-    document.getElementById('dis3').style.display = "none";
-  }, 1200);
+  document.getElementById('dis3').style.display = "none";
 }
 
 function showDis4() {
   document.getElementById('dis4').style.display = "block";
 }
 function hideDis4() {
-  setTimeout(function(){
-    document.getElementById('dis4').style.display = "none";
-  }, 1200);
+  document.getElementById('dis4').style.display = "none";
 }
